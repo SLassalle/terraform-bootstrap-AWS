@@ -3,7 +3,7 @@ output "s3_bucket" {
 }
 
 output "dynamodb_table" {
-  value = aws_dynamodb_table.terraform_lock.id
+  value = aws_dynamodb_table.terraform_lock_iam.id
 }
 
 output "terraform_admin_role_arn" {
